@@ -19,17 +19,21 @@ basic styles
   box-sizing: border-box;
 }
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-size: var(--fontSize);
   background-image: linear-gradient(rgba(246, 149, 96, .9), rgba(90, 98, 132, .7)) ,url(img/bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   padding: 30px 0;
+  line-height: 1.6;
 }
 h1 {
   font-size: 4rem;
-  margin-bottom: 1.5rem;
+}
+h2 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
 }
 button {
   padding: .6em 1.2em;
@@ -63,8 +67,6 @@ header {
   background-position: center;
   color: var(--lightGray);
   padding: 80px 0;
-  font-family: "Quicksand", sans-serif;
-
 }
 header article {
   padding: 50px 30px;
@@ -72,6 +74,15 @@ header article {
   width: 60%;
   margin: 0 auto;
   background: linear-gradient(to right, rgba(238, 101, 136, .7), rgba(246, 149, 96, .7));
+}
+/******************
+about
+*******************/
+.about {
+  background-color: var(--lightGray);
+  color: var(--text);
+  text-align: center;
+  padding: 50px 10px;
 }
 
 
