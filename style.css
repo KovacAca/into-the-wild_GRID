@@ -112,6 +112,31 @@ info
   letter-spacing: 1px;
   margin-bottom: .4em;
 }
+/******************
+images
+*******************/
+.images {
+  background-color: var(--lightGray);
+}
+.images .row {
+  padding: 20px;
+}
+.images .col-4 {
+  padding: 15px;
+}
+.images img {
+  width: 100%;
+  height: auto;
+  display: block;
+  cursor: pointer;
+  /* filter: blur(1px); */
+  filter: grayscale(0.9);
+  transition: .3s ease-in;
+}
+.images img:hover {
+  /* filter: blur(0px); */
+  filter: grayscale(0);
+}
 
 
 
