@@ -57,6 +57,9 @@ button:hover {
   background-color: var(--lightGray);
   color: var(--red);
 }
+ul {
+  list-style: none;
+}
 /******************
 main
 *******************/
@@ -198,6 +201,30 @@ contact
 .contact .row:last-child .col-4:nth-child(1),
 .contact .row:last-child .col-4:nth-child(2) {
   border-right: 1px solid var(--borders);
+}
+/******************
+footer
+*******************/
+footer {
+  background: var(--borders);
+  padding: 30px;
+}
+footer p {
+  float: left;
+}
+footer ul {
+  float: right;
+}
+footer ul li {
+  display: inline-block;
+}
+footer ul li a {
+  color: var(--text);
+  margin-left: 30px;
+  font-size: 1.1rem;
+}
+footer ul li a:hover {
+  color: var(--gray);
 }
 
 
