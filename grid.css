@@ -24,11 +24,3 @@ grid sistem
 [class*="col-"] {
   float: left;
 }
-/*****************
-responsive
-******************/
-@media(max-width: 767px) {
-  [class*="col-"] {
-   width: 100%;
-  }
-}
